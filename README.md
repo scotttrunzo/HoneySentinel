@@ -14,13 +14,13 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
          - Postfix  
          
 
-   Install Required Tools:
+   Install Required Tools:  
      sudo apt-get install inotify-tools mailutils  
      sudo apt-get install postfix  
                -choose "Internet Site" option upon installation  
                
  
-### Usage
+### Usage  
 1. Modifications  
     Modify the script in the commented portions with your desired information.  
        - Modify the email address in the send_email_alert function to the email address where you wish to receive the notifications.  
