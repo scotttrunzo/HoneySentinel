@@ -18,7 +18,7 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
    
    sudo apt-get install inotify-tools mailutils  
    sudo apt-get install postfix  
-               -choose "Internet Site" option upon installation  
+                  -choose "Internet Site" option upon installation  
                
  
 ### Usage  
