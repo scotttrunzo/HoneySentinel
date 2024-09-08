@@ -12,8 +12,8 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
          - Postfix
 
    Install Required Tools:
-    '''  sudo apt-get install inotify-tools mailutils
-    '''  sudo apt-get install postfix
+     sudo apt-get install inotify-tools mailutils
+     sudo apt-get install postfix
                -choose "Internet Site" option upon installation
  
 ### Usage
@@ -25,8 +25,8 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
        - If you wish, modify the log destinations to your desired logs.
 
 2.  Ensure postfix is running before running the script
-    '''  sudo systemctl start postfix
-    '''  sudo systemctl enable postfix
+      sudo systemctl start postfix
+      sudo systemctl enable postfix
 
 3. Run script with sudo to ensure proper permissions.
-    '''  sudo ./HoneySentinel.sh
+      sudo ./HoneySentinel.sh
