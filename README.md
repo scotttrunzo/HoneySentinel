@@ -1,5 +1,5 @@
 # HoneySentinel
-A script to generate artificial decoy honeyfiles and subsequently monitor and send alerts for unauthorized access to the honeyfiles in Linux systems.  
+A script to generate artificial decoy honeyfiles and subsequently monitor and send alerts for unauthorized access to the honeyfiles in Linux systems. Upon any degree of access to the files or directory, an alert containing the IP address and User of the accesser is sent to your email. Any non-whitelisted IP addresses are immediately blacklisted.  
 
 
 ### Installation
