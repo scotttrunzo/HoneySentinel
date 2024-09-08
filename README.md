@@ -32,9 +32,13 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
    
 
 2.  Ensure postfix is running before running the script
+   
        sudo systemctl start postfix  
-       sudo systemctl enable postfix  
+       sudo systemctl enable postfix
+
+3.  Run script with sudo to ensure proper permissions.
+   
+       sudo ./HoneySentinel.sh
+
     
 
-3.  Run script with sudo to ensure proper permissions.  
-       sudo ./HoneySentinel.sh
