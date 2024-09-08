@@ -1,5 +1,5 @@
 # HoneySentinel
-A script to generate honeyfiles and subsequently monitor and send alerts for unauthorized access to the honeyfiles in Linux systems.  
+A script to generate artificial decoy honeyfiles and subsequently monitor and send alerts for unauthorized access to the honeyfiles in Linux systems.  
 
 
 ### Installation
