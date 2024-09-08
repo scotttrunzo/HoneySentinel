@@ -26,7 +26,7 @@ A script to generate artificial decoy honeyfiles and subsequently monitor and se
    
      Modify the script in the commented portions with your desired information.  
        - Modify the email address in the send_email_alert function to the email address where you wish to receive the notifications.  
-       - Modify the file directory path where you wish the Honeyfiles to be housed. Directories such as /etc or /var/www is a more convincing location for confidential file baiting.  
+       - Modify the file directory path where you wish the Honeyfiles to be housed. Directories such as /etc or /var/www are more convincing locations for confidential file baiting.  
        - Modify the allowed IPs to whitelist yourself (your own IP address) and other IP addresses you wish to allow access over the files and to ensure most importantly they are not blacklisted upon accessing the files.  
        - If you wish, modify the log destinations to your desired logs.
    
