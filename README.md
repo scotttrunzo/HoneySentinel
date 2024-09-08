@@ -8,7 +8,7 @@ A script to generate honeyfiles and subsequently monitor and send alerts for una
    
 
 ### Requirements
-  Required Tools:
+  Required Tools:  
          - Linux system (tested on Kali Linux)  
          - inotify-tools  
          - Postfix  
